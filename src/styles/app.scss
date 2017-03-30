@@ -1,0 +1,20 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333333;
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+}
+.resultsGrid
+{
+margin-top:30px;min-height: 400px
+}
+.videoGrid
+{
+padding:10px;
+}
+iframe{border:none; border-radius: 6px;}
+
